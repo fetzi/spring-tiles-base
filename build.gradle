@@ -1,0 +1,19 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'javax.servlet:jstl:1.1.2'
+    compile 'javax.servlet:javax.servlet-api:3.1.0'
+    compile 'org.slf4j:slf4j-api:1.7.9'
+    compile 'org.slf4j:slf4j-simple:1.7.9'
+    compile 'org.springframework:spring-core:3.2.2.RELEASE'
+    compile 'org.springframework:spring-webmvc:3.2.13.RELEASE'
+    compile 'org.apache.tiles:tiles-extras:3.0.1'
+    testCompile 'junit:junit:4.11'
+}
